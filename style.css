@@ -48,10 +48,13 @@ header li:hover{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     background-image: linear-gradient(to right,#cbbacc, #212934);
+    color: #fff;
 }
 .intro-img {
         width: 645px;
         margin: 66px;
+        z-index: -1;
+        opacity:0.8;
 }
 .intro-img-section h3{
     
@@ -60,16 +63,21 @@ header li:hover{
     letter-spacing: 5px;
     line-height: 7;
     text-align: center;
-    margin-top: 30PX;
+    margin-top: 50px;
+    
 
 }
-.intro-img-section h1{
+.intro-img-section p{
   
-    font-size: 33px;
-   margin-bottom:35px; 
-   font-weight: 100;
-   text-align: left;
+            font-size: 40px;
+            margin-bottom: 35px;
+            position: absolute;
+            left: 586px;
+            color: #fff;
+            font-weight: 100;
+            text-align: left;
 }
+
 .intro-img-section h2{
     display: inline-block;
         font-size: 17px;
@@ -80,6 +88,7 @@ header li:hover{
         text-align: center;
         margin-left: 40px;
         color: #fff;
+        margin-top: 115PX;
 }
 .intro-img-section h2:hover{
     background-color: #fff;
